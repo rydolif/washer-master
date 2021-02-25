@@ -1,0 +1,604 @@
+@media screen and (min-width: 1790px) {
+  .box2 {
+    &::after {
+      left: 14%;
+    }
+  }
+}
+@media screen and (min-width: 1600px) {
+  .box2 {
+    &::after {
+      left: 10%;
+    }
+  }
+  #employees::before {
+    left: -10%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .box2 {
+    &::after {
+      left: 0;
+    }
+  }
+  #employees::before {
+    left: -14%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .box2 {
+    &::after {
+      left: -55px;
+    }
+  }
+  #employees::before {
+    left: -18%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .navbar-expand-md .navbar-nav .menu-item {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .box1 {
+    h1 {
+      font-size: 66px;
+    }
+  }
+  .box2 {
+    >.vc_row::before {
+      width: 298px;
+    }
+    >.vc_row::after {
+      width: 120px;
+    }
+    p {
+      padding-right: 0;
+    }
+  }
+  .stages-of-work-box {
+    &::before {
+      right: -302px;
+    }
+  }
+  .about-box::before {
+    display: none!important;
+  }
+  #employees {
+    &::before {
+      display: none!important;
+    }
+    .tab-content {
+      padding: 58px 0 50px 14px;
+      .static-wrapper {
+        padding: 35px 15px;
+      }
+      .cms-banner-img {
+        margin-left: -15px;
+      }
+      .text6 {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-expand-md .navbar-nav .menu-item {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .phone-box {
+    display: none;
+  }
+  header {
+    .logo {
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .box1 {
+    background-size: cover;
+    &::before {
+      left: 0;
+      background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,rgba(0,0,0,.61) 50%);
+    }
+    &::after {
+      display: none;
+    }
+    h1 {
+      font-size: 56px;
+    }
+    p {
+      max-width: 320px;
+    }
+  }
+  .box2 {
+    &::before {
+      right: 0;
+      background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,#f2ba40 50%,#e68f34 100%);
+    }
+    &::after {
+      display: none;
+    }
+    >.vc_row::before,
+    >.vc_row::after {
+      width: 50.5%;
+    }
+    h3 {
+      padding-left: 0;
+      padding-top: 60px;
+    }
+    p {
+      font-size: 18px;
+    }
+    .vc_col-sm-7 p {
+      text-align: left;
+    }
+    .vc_col-sm-7,
+    .vc_col-sm-5 {
+      width: 50%;
+    }
+  }
+  .services-and-prices-box {
+    background-size: cover;
+    &::before {
+      display: none!important;
+    }
+    .cms-banner-img img {
+      max-width: 100%;
+      height: auto;
+      max-height: 100px;
+    }
+  }
+  .about-box {
+    background-size: cover;
+    .about-text-box {
+      &::before {
+        left: -160px;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .stages-of-work-box {
+    padding-bottom: 0;
+    &::before {
+      display: none!important;
+    }
+    .vc_col-sm-7 {
+      width: 100%;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    ul {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      li {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        h5 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .box4 {
+    h1 {
+      font-size: 36px;
+    }
+  }
+  .reviews-box {
+    background-size: cover;
+    &::before {
+      display: none!important;
+    }
+    h1 {
+      font-size: 36px;
+    }
+  }
+  .owl-carousel .owl-nav {
+    margin-bottom: 5px;
+    .owl-prev {
+      margin-right: 20px;
+    }
+  }
+  #employees {
+    .vc_inner.vc_row-fluid {
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        display: block!important;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background-color: #e68f34;
+        background-image: linear-gradient(90deg,#e68f34 0,#f2ba40 50%, #333 50%);
+      }
+    }
+    .tab-content {
+      padding: 40px 0;
+      &::before {
+        display: none;
+      }
+      .static-wrapper {
+        min-height: auto;
+        padding: 25px 20px;
+        width: 100%;
+        margin-top: 0;
+      }
+      .cms-banner-img {
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        img {
+          max-width: 100%;
+          height: auto;
+          float: none;
+          max-height: 190px;
+        }
+      }
+      .text6 {
+        text-align: left;
+      }
+    }
+  }
+  #wpgmza_map {
+    height: 400px!important;
+  }
+  footer {
+    .navbar-brand {
+      margin-right: 0;
+    }
+  }
+  .footer-widget-left p a,
+  .footer-widget-right p a {
+    clear: both;
+    display: inline-block;
+    margin-top: 4px;
+  }
+  .soc-box a:not(:last-child) {
+    margin-right: 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .navbar {
+    padding-top: 0;
+    min-height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: none;
+  }
+  .navbar-brand {
+    padding: 17px 0;
+  }
+  .vc_section.box1 {
+    overflow: hidden!important;
+  }
+  .box1 {
+    min-height: auto;
+    padding-bottom: 40px;
+    background-position: left;
+    &.electric {
+      background-position: left;
+    }
+    &.plotnik {
+      //background-position: left;
+    }
+    &.santekhnik {
+      background-position: left;
+    }
+    &.sborkamebel {
+      background-position: left;
+    }
+    &.rembittex {
+      background-position: left;
+      background-size: cover;
+      h1 {
+        margin-top: 30px;
+      }
+    }
+    &.service {
+      //background-position: left;
+    }
+    &.remontkvartir {
+      background-position: left;
+      h1 {
+        margin-top: 30px;
+      }
+    }
+    &::before {
+      display: none!important;
+    }
+    .vc_col-sm-5::before {
+      position: absolute;
+      top: 0;
+      left: -50%;
+      height: 1000%;
+      width: 1000%;
+      content: '';
+      background-color: rgba(0,0,0,.61);
+    }
+    h1 {
+      margin-top: 30px;
+    }
+    .soc-box {
+      display: none;
+    }
+  }
+  .box1-form-top-text {
+    margin-top: 0;
+    p {
+      margin: 0 auto;
+    }
+  }
+  .box2 {
+    min-height: auto;
+    padding-bottom: 0;
+    background-size: cover;
+    &::before {
+      display: none;
+    }
+    >.vc_row {
+      border: none;
+    }
+    >.vc_row::before,
+    >.vc_row::after {
+      display: none;
+    }
+    .vc_col-sm-7::before {
+      display: none;
+    }
+    .vc_col-sm-7,
+    .vc_col-sm-5 {
+      width: 100%;
+    }
+    h3 {
+      font-size: 26px;
+      padding-top: 0;
+    }
+    img {
+      max-width: 200px;
+      height: auto;
+    }
+    p {
+      padding-top: 0;
+      text-align: left;
+      font-size: 16px;
+    }
+  }
+  .services-and-prices-box {
+    .vc_col-sm-3 {
+      width: 50%;
+      float: left;
+    }
+    .vc_btn3-container {
+      text-align: center!important;
+    }
+    .vc_btn3-style-modern {
+      margin-top: 20px;
+      line-height: 50px!important;
+      height: 50px!important;
+      font-size: 16px!important;
+    }
+  }
+  .box3 {
+    padding-top: 40px;
+    h1 {
+      font-size: 36px;
+    }
+    .vc_col-sm-4 {
+      width: 33.33333333%;
+      float: left;
+    }
+    .cms-banner-item {
+      margin-bottom: 30px;
+    }
+  }
+  .about-box {
+    .about-text-box {
+      margin-bottom: 0;
+      &::before {
+        display: none!important;
+      }
+      h1, p {
+        text-align: left;
+      }
+    }
+  }
+  .stages-of-work-box {
+    .vc_btn3-style-modern {
+      line-height: 50px!important;
+      height: 50px!important;
+      font-size: 16px!important;
+    }
+  }
+  .box4 {
+    padding: 40px 0 20px;
+  }
+  .custom-btn {
+    height: 50px;
+    font-size: 16px;
+  }
+  a.custom-btn {
+    line-height: 50px;
+  }
+  #employees {
+    .vc_inner.vc_row-fluid {
+      &::before {
+        display: none!important;
+      }
+    }
+    .tab-nav {
+      padding-top: 50px;
+      background-color: #e68f34;
+      background-image: linear-gradient(90deg,#e68f34 0,#f2ba40 50%);
+    }
+    .tab-content {
+      background-color: #333;
+      .static-wrapper {
+        width: 50%;
+        margin-top: 25px;
+      }
+      .cms-banner-img {
+        width: 50%;
+      }
+      .text6 {
+        max-width: 100%;
+        float: left;
+      }
+      .custom-btn {
+        float: left;
+      }
+    }
+  }
+  body {
+    margin-bottom: 350px;
+  }
+  footer {
+    height: 350px;
+    .navbar-brand {
+      margin: 0 auto;
+      max-width: 100%;
+      text-align: center;
+      .logo {
+        padding: 0;
+      }
+    }
+  }
+  .catalog-sections-top {
+    margin-bottom: 120px;
+  }
+  .fix-footer {
+    position: fixed;
+    width: 100%;
+    height: 124px;
+    left: 0;
+    bottom: 10px;
+    h4.table_heading {
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-size: 18px;
+    }
+    .table_heading_p {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+  }
+  .cell_heading {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .services-and-prices-modal .modal-body {
+    padding: 10px;
+  }
+  .services-and-prices-modal .modal-content {
+    background-image: none;
+  }
+  .services-and-prices-modal .modal-body h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .services-and-prices-modal .modal-body h1 .custom-btn {
+    float: none;
+    margin-top: 10px;
+  }
+  .modal-body {
+    padding: 32px 15px 10px;
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+@media screen and (max-width: 575px) {
+  .box1 {
+    h1 {
+      font-size: 46px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  .box1-form-top-text {
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .services-and-prices-box {
+    >.vc_row::before {
+      display: none!important;
+    }
+    .vc_col-sm-3 {
+      width: 100%;
+    }
+    h1 {
+      font-size: 36px;
+    }
+  }
+  .box3 {
+    .vc_col-sm-4 {
+      width: 100%;
+    }
+    .cms-banner-img {
+      margin-bottom: 10px;
+      width: 52px;
+      height: 52px;
+      img {
+        width: 52px;
+        height: 52px;
+      }
+    }
+  }
+  .stages-of-work-box {
+    ul {
+      li {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .box4 {
+    h1 {
+      font-size: 26px;
+    }
+  }
+  .reviews-box {
+    h1 {
+      font-size: 32px;
+    }
+  }
+  #employees {
+    .tab {
+      max-width: 50%;
+    }
+    .tab-content {
+      .static-wrapper {
+        width: 100%;
+        margin-top: 0;
+      }
+      .cms-banner-img {
+        width: 100%;
+      }
+    }
+  }
+}
+

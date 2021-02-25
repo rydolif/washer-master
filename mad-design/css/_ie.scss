@@ -1,0 +1,26 @@
+html.ie {
+  .soc-box {
+    .viber {
+      background: url("img/viber-logo.png") no-repeat;
+    }
+    .telegram {
+      background: url("img/telegram-logo.png") no-repeat;
+    }
+    .whatsapp {
+      background: url("img/whatsapp-logo.png") no-repeat;
+    }
+    .facebook {
+      background: url("img/facebook-logo.png") no-repeat;
+    }
+  }
+
+  .wpcf7-form {
+    .repair-from-btn {
+      max-width: 380px;
+      background: url("img/repair-from-btn.png") no-repeat;
+    }
+  }
+  .owl-carousel .owl-dots .owl-dot.active span {
+    background: url('img/dots.png') center center no-repeat;
+  }
+}

@@ -1,0 +1,34 @@
+html.ie {
+  .soc-box {
+    .viber {
+      background: url("img/viber-logo.png") no-repeat;
+    }
+    .telegram {
+      background: url("img/telegram-logo.png") no-repeat;
+    }
+    .whatsapp {
+      background: url("img/whatsapp-logo.png") no-repeat;
+    }
+    .facebook {
+      background: url("img/facebook-logo.png") no-repeat;
+    }
+  }
+  footer {
+    .footer-widget-right {
+      .soc-box {
+        .viber {
+          background: url("img/viber-logo-red.png") no-repeat;
+        }
+        .telegram {
+          background: url("img/telegram-logo-red.png") no-repeat;
+        }
+        .whatsapp {
+          background: url("img/whatsapp-logo-red.png") no-repeat;
+        }
+        .facebook {
+          background: url("img/facebook-logo-red.png") no-repeat;
+        }
+      }
+    }
+  }
+}

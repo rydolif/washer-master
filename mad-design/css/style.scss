@@ -1,0 +1,32 @@
+/*!
+*Theme Name: MadDesign
+*Theme URI:
+*Author: Yunis Mamedov
+*Description: Template created by MadDesign
+*Version: 1.1
+*/
+
+//@import "fonts";
+@import "sanitary/sanitary_fonts";
+//@import "electric/fonts";
+//@import "zasori/fonts";
+
+@import "font-awesome5";
+@import "bootstrap";
+@import "hamburgers/hamburgers";
+
+//@import "main";
+//@import "ie";
+//@import "responsive";
+
+@import "sanitary/sanitary_engineering";
+@import "sanitary/sanitary_ie";
+@import "sanitary/sanitary_responsive";
+
+//@import "electric/electric";
+//@import "electric/ie";
+//@import "electric/responsive";
+
+//@import "zasori/zasori";
+//@import "zasori/ie";
+//@import "zasori/responsive";
